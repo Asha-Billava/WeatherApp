@@ -4,6 +4,7 @@ import moment from 'moment'
 
 function Card (props) {
   return (
+    // cards //
     <React.Fragment>
     {props.forecastData!==0&&props.forecastData.map((item,index)=>{
         return(
