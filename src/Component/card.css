@@ -1,0 +1,40 @@
+
+#carouselExampleControlsNoTouching{
+    height: 50%;
+    width: 100%;
+}
+
+.caroselData{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.card{
+
+    background-color: rgba(255,255,255, 0.2);
+    backdrop-filter: blur(2px); 
+    height: 150px;
+    width: 100px;
+    color: white;
+    display: 'inline-block';
+    border:'1px solid red';
+    margin-right: 8px;
+    text-align: center;
+    transition: transform 0.5s ease;
+
+}
+
+
+@media screen and (max-width:750px){
+
+    .card{
+        height: 135px;
+        width: 104px;
+    }
+    
+}
